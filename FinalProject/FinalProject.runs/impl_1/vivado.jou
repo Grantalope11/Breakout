@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue May 24 10:04:02 2016
+# Process ID: 5728
+# Log file: U:/CPE233/FinalProject/FinalProject.runs/impl_1/RAT_wrapper.vdi
+# Journal file: U:/CPE233/FinalProject/FinalProject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RAT_wrapper.tcl -notrace
