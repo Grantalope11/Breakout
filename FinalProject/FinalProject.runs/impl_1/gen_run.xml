@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1464109397">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1464112885">
   <File Type="PWROPT-DCP" Name="RAT_wrapper_pwropt.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
   <File Type="PLACE-DCP" Name="RAT_wrapper_placed.dcp"/>
@@ -48,6 +48,12 @@
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ball_object.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/Sprite_Object.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -126,8 +132,10 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="C:/Users/gholstei/Desktop/VGA/BufferlessVGAFiles/prog_rom.vhd">
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/prog_rom.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/gholstei/Downloads/prog_rom.vhd"/>
+        <Attr Name="ImportTime" Val="1464112809"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -188,9 +196,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
-      <Desc>Vivado Implementation Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

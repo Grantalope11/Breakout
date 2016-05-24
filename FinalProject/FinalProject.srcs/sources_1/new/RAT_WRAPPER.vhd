@@ -189,7 +189,7 @@ begin
    ------------------------------------------------------------------------------- 
    -- MUX for selecting what input to read 
    -------------------------------------------------------------------------------
-   inputs: process(s_port_id, SWITCHES, BUTTONS)
+   inputs: process(s_port_id, SWITCHES, BUTTONS, ps2KeyCode, ps2Status)
    begin
       if (s_port_id = SWITCHES_ID) then
          s_input_port <= SWITCHES;

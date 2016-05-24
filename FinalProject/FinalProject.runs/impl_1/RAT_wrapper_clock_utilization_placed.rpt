@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
-| Date         : Tue May 24 10:04:31 2016
+| Date         : Tue May 24 11:02:39 2016
 | Host         : RM132B13 running 64-bit Service Pack 1  (build 7601)
 | Command      : report_clock_utilization -file RAT_wrapper_clock_utilization_placed.rpt
 | Design       : RAT_wrapper
@@ -41,15 +41,15 @@ Table of Contents
 2. Details of Global Clocks
 ---------------------------
 
-+-------+--------------------+-------------------+--------------+-------+---------------+-----------+
-|       |                    |                   |   Num Loads  |       |               |           |
-+-------+--------------------+-------------------+------+-------+-------+---------------+-----------+
-| Index | BUFG Cell          | Net Name          | BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
-+-------+--------------------+-------------------+------+-------+-------+---------------+-----------+
-|     1 | h_end_reg_i_2      | n_0_h_end_reg_i_2 |   82 |    32 |    no |         1.787 |     0.215 |
-|     2 | sclk_BUFG_inst     | sclk_BUFG         |   83 |    29 |    no |         1.792 |     0.264 |
-|     3 | CLK_IBUF_BUFG_inst | CLK_IBUF_BUFG     |  116 |    41 |    no |         1.796 |     0.217 |
-+-------+--------------------+-------------------+------+-------+-------+---------------+-----------+
++-------+--------------------+---------------+--------------+-------+---------------+-----------+
+|       |                    |               |   Num Loads  |       |               |           |
++-------+--------------------+---------------+------+-------+-------+---------------+-----------+
+| Index | BUFG Cell          | Net Name      | BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
++-------+--------------------+---------------+------+-------+-------+---------------+-----------+
+|     1 | sclk_BUFG_inst     | sclk_BUFG     |   83 |    31 |    no |         1.797 |     0.266 |
+|     2 | h_end_reg_i_2      | clk           |   97 |    42 |    no |         1.789 |     0.184 |
+|     3 | CLK_IBUF_BUFG_inst | CLK_IBUF_BUFG |  116 |    40 |    no |         1.787 |     0.208 |
++-------+--------------------+---------------+------+-------+-------+---------------+-----------+
 
 
 3. Details of Regional Clocks
@@ -69,8 +69,8 @@ Table of Contents
 +-------+-----------------------------+---------------------+------+-------+-------+---------------+-----------+
 | Index | Local Clk Src               | Net Name            | BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
 +-------+-----------------------------+---------------------+------+-------+-------+---------------+-----------+
-|     1 | sevenseg/my_clk/tmp_clk_reg | sevenseg/my_clk/CLK |    3 |     2 |    no |         0.824 |     0.084 |
-|     2 | PS2C_IOBUF_inst/IBUF        | PS2C_IOBUF_inst/O   |   24 |    10 |   yes |         4.049 |     0.515 |
+|     1 | sevenseg/my_clk/tmp_clk_reg | sevenseg/my_clk/CLK |    3 |     3 |    no |         1.027 |     0.255 |
+|     2 | PS2C_IOBUF_inst/IBUF        | PS2C_IOBUF_inst/O   |   24 |     8 |   yes |         4.059 |     0.387 |
 +-------+-----------------------------+---------------------+------+-------+-------+---------------+-----------+
 
 
@@ -82,7 +82,7 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  214 |  9600 |   57 |  1600 |    1 |    20 |    0 |    10 |    0 |    20 |
+| X0Y0              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  229 |  9600 |   57 |  1600 |    1 |    20 |    0 |    10 |    0 |    20 |
 | X1Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   35 | 12000 |    0 |  1800 |    0 |    40 |    0 |    20 |    0 |    20 |
 | X0Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  9600 |    0 |  1600 |    0 |    20 |    0 |    10 |    0 |    20 |
 | X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 | 12000 |    0 |  1800 |    0 |    40 |    0 |    20 |    0 |    20 |
@@ -95,13 +95,13 @@ Table of Contents
 8. Net wise resources used in clock region X0Y0
 -----------------------------------------------
 
-+-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------+
-| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |   Clock Net Name  |
-+-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------+
-| BUFG        |     ---     |   no  |         0 |        0 |       0 |         1 |       0 |       0 |  26 |    56 |        0 | sclk_BUFG         |
-| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  82 |     0 |        0 | n_0_h_end_reg_i_2 |
-| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  83 |     0 |        0 | CLK_IBUF_BUFG     |
-+-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+-------------------+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s | Clock Net Name |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         1 |       0 |       0 |  26 |    56 |        0 | sclk_BUFG      |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  83 |     0 |        0 | CLK_IBUF_BUFG  |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  97 |     0 |        0 | clk            |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+----------------+
 
 
 9. Net wise resources used in clock region X1Y0
@@ -117,8 +117,8 @@ Table of Contents
 
 # Location of BUFG Primitives 
 set_property LOC BUFGCTRL_X0Y0 [get_cells CLK_IBUF_BUFG_inst]
-set_property LOC BUFGCTRL_X0Y2 [get_cells h_end_reg_i_2]
-set_property LOC BUFGCTRL_X0Y1 [get_cells sclk_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y1 [get_cells h_end_reg_i_2]
+set_property LOC BUFGCTRL_X0Y2 [get_cells sclk_BUFG_inst]
 
 # Location of IO Clock Primitives
 
@@ -151,21 +151,21 @@ add_cells_to_pblock [get_pblocks  CLKAG_PS2C_IBUF] [get_cells  -filter { IS_PRIM
 resize_pblock [get_pblocks CLKAG_PS2C_IBUF] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
-# Clock net "n_0_h_end_reg_i_2" driven by instance "h_end_reg_i_2" located at site "BUFGCTRL_X0Y2"
+# Clock net "clk" driven by instance "h_end_reg_i_2" located at site "BUFGCTRL_X0Y1"
 #startgroup
-create_pblock CLKAG_n_0_h_end_reg_i_2
-add_cells_to_pblock [get_pblocks  CLKAG_n_0_h_end_reg_i_2] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="n_0_h_end_reg_i_2"}]]]
-resize_pblock [get_pblocks CLKAG_n_0_h_end_reg_i_2] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+create_pblock CLKAG_clk
+add_cells_to_pblock [get_pblocks  CLKAG_clk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="clk"}]]]
+resize_pblock [get_pblocks CLKAG_clk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
-# Clock net "sclk_BUFG" driven by instance "sclk_BUFG_inst" located at site "BUFGCTRL_X0Y1"
+# Clock net "sclk_BUFG" driven by instance "sclk_BUFG_inst" located at site "BUFGCTRL_X0Y2"
 #startgroup
 create_pblock CLKAG_sclk_BUFG
 add_cells_to_pblock [get_pblocks  CLKAG_sclk_BUFG] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="sclk_BUFG"}]]]
 resize_pblock [get_pblocks CLKAG_sclk_BUFG] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
-# Clock net "sevenseg/my_clk/CLK" driven by instance "sevenseg/my_clk/tmp_clk_reg" located at site "SLICE_X63Y22"
+# Clock net "sevenseg/my_clk/CLK" driven by instance "sevenseg/my_clk/tmp_clk_reg" located at site "SLICE_X60Y22"
 #startgroup
 create_pblock CLKAG_sevenseg/my_clk/CLK
 add_cells_to_pblock [get_pblocks  CLKAG_sevenseg/my_clk/CLK] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="sevenseg/my_clk/CLK"}]]]

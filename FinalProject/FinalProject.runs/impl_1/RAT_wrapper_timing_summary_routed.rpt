@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version      : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
-| Date              : Tue May 24 10:04:55 2016
+| Date              : Tue May 24 11:03:05 2016
 | Host              : RM132B13 running 64-bit Service Pack 1  (build 7601)
 | Command           : report_timing_summary -warn_on_violation -max_paths 10 -file RAT_wrapper_timing_summary_routed.rpt -rpx RAT_wrapper_timing_summary_routed.rpx
 | Design            : RAT_wrapper
@@ -56,7 +56,7 @@ Table of Contents
 
  There are 24 register/latch pins with no clock driven by root clock pin: PS2C (HIGH)
 
- There are 82 register/latch pins with no clock driven by root clock pin: VGA/clock_div_inst0/temp_clk_reg/C (HIGH)
+ There are 97 register/latch pins with no clock driven by root clock pin: VGA/clock_div_inst0/temp_clk_reg/C (HIGH)
 
  There are 83 register/latch pins with no clock driven by root clock pin: clk50M/tmp_clk_reg/C (HIGH)
 
@@ -75,7 +75,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 1033 pins that are not constrained for maximum delay. (HIGH)
+ There are 1063 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

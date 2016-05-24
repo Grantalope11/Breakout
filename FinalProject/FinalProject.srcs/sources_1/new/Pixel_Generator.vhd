@@ -37,13 +37,13 @@ end Pixel_Generator;
 
 architecture Behavioral of Pixel_Generator is
     --Constant Definitions
-    constant BACKGROUND_COLOR : std_logic_vector (7 downto 0) := x"1F"; --teal
+    constant BACKGROUND_COLOR : std_logic_vector (7 downto 0) := x"1C"; --teal
     --Object signals for RGB, On and WE
     -----------------------------------
     -- Modify here to change objects --
-    signal obj0_rgb, obj1_rgb, obj2_rgb : std_logic_vector (7 downto 0);
-    signal obj0_on, obj1_on, obj2_on : std_logic;
-    signal obj0_we, obj1_we, obj2_we : std_logic;
+    signal obj0_rgb, obj1_rgb, obj2_rgb, obj3_rgb : std_logic_vector (7 downto 0);
+    signal obj0_on, obj1_on, obj2_on, obj3_on : std_logic;
+    signal obj0_we, obj1_we, obj2_we, obj3_we : std_logic;
     -----------------------------------
     --Object Components
     component Rectangle_Object
@@ -77,6 +77,20 @@ architecture Behavioral of Pixel_Generator is
             VGACLK   : in STD_LOGIC;
             X_POS_EN : in STD_LOGIC_VECTOR (7 downto 0);
             Y_POS    : in STD_LOGIC_VECTOR (6 downto 0);
+            WE       : in STD_LOGIC;
+            X_PIXEL  : in STD_LOGIC_VECTOR (6 downto 0);
+            Y_PIXEL  : in STD_LOGIC_VECTOR (6 downto 0);
+            RGB_OBJ  : out STD_LOGIC_VECTOR (7 downto 0);
+            ON_OBJ   : out STD_LOGIC
+        );
+    end component;
+    
+    component Ball_Object
+        port (
+            VGACLK   : in STD_LOGIC;
+            X_POS_EN : in STD_LOGIC_VECTOR (7 downto 0);
+            Y_POS    : in STD_LOGIC_VECTOR (6 downto 0);
+            RGB_DATA : in STD_LOGIC_VECTOR (7 downto 0);
             WE       : in STD_LOGIC;
             X_PIXEL  : in STD_LOGIC_VECTOR (6 downto 0);
             Y_PIXEL  : in STD_LOGIC_VECTOR (6 downto 0);
@@ -133,6 +147,21 @@ begin
         RGB_OBJ  => obj2_rgb,
         ON_OBJ   => obj2_on
     );
+    ------------------------------------
+    -- Ball Map - obj3
+    ------------------------------------
+    Ball : Ball_Object
+    port map (
+            VGACLK   => VGACLK,
+            X_POS_EN => X_POS_EN,
+            Y_POS    => Y_POS,
+            RGB_DATA => RGB_DATA_IN,
+            WE       => obj3_we,
+            X_PIXEL  => X_PIXEL,
+            Y_PIXEL  => Y_PIXEL,
+            RGB_OBJ  => obj3_rgb,
+            ON_OBJ   => obj3_on
+        );
     ---------------------------------------------------
     --Object Address Decoder
     -- Modify these to change how objects are addressed
@@ -140,15 +169,16 @@ begin
     obj0_we <= '1' when OBJ_ADDR = x"01" else '0';
     obj1_we <= '1' when OBJ_ADDR = x"02" else '0';
     obj2_we <= '1' when OBJ_ADDR = x"03" else '0';
-
+    obj3_we <= '1' when OBJ_ADDR = x"04" else '0';
+    
     --End Decoder
     ---------------------------------------------------
     
     ---------------------------------------------------
     --Object RGB Mux
     -- Modify the sensitivity list and elsif's to update objects
-    rgb_sel_proc : process(VIDEO_ON, obj0_on, obj1_on, obj2_on,
-                                     obj0_rgb,obj1_rgb,obj2_rgb) 
+    rgb_sel_proc : process(VIDEO_ON, obj0_on, obj1_on, obj2_on, obj3_on,
+                                     obj0_rgb,obj1_rgb,obj2_rgb, obj3_rgb) 
     begin
         if(VIDEO_ON = '0') then
             RGB_DATA_OUT <= (others => '0');
@@ -160,6 +190,8 @@ begin
             elsif(obj2_on = '1') then
                 RGB_DATA_OUT <= obj2_rgb;
             --Add elsif's here to add more objects
+            elsif(obj3_on = '1') then
+                RGB_DATA_OUT <= obj3_rgb;
             else
                 RGB_DATA_OUT <= BACKGROUND_COLOR;
             end if;

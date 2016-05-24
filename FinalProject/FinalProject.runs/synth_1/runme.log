@@ -23,34 +23,35 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 availabl
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
 # set_param project.compositeFile.enableAutoGeneration 0
 # set_param synth.vivado.isSynthRun true
-# set_property webtalk.parent_dir U:/CPE233/FinalProject/FinalProject.cache/wt [current_project]
-# set_property parent.project_path U:/CPE233/FinalProject/FinalProject.xpr [current_project]
+# set_property webtalk.parent_dir U:/CPE233/Breakout/FinalProject/FinalProject.cache/wt [current_project]
+# set_property parent.project_path U:/CPE233/Breakout/FinalProject/FinalProject.xpr [current_project]
 # set_property default_lib xil_defaultlib [current_project]
 # set_property target_language Verilog [current_project]
 # read_vhdl -library xil_defaultlib {
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd
-#   C:/Users/gholstei/Desktop/VGA/BufferlessVGAFiles/prog_rom.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd
-#   U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/imports/Downloads/prog_rom.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd
+#   U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd
 # }
-# read_xdc U:/CPE233/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc
-# set_property used_in_implementation false [get_files U:/CPE233/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc]
+# read_xdc U:/CPE233/Breakout/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc
+# set_property used_in_implementation false [get_files U:/CPE233/Breakout/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc]
 # catch { write_hwdef -file RAT_wrapper.hwdef }
 INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
 # synth_design -top RAT_wrapper -part xc7a35tcpg236-1
@@ -60,28 +61,28 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-1223] The version limit for your license is '2016.03' and will expire in -54 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 234.359 ; gain = 73.680
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 233.953 ; gain = 73.086
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'RAT_wrapper' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:42]
-INFO: [Synth 8-3491] module 'RAT_CPU' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:12' bound to instance 'CPU' of component 'RAT_CPU' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:141]
-INFO: [Synth 8-638] synthesizing module 'RAT_CPU' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:24]
-INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'carry_flag' of component 'Flag' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:152]
-INFO: [Synth 8-638] synthesizing module 'Flag' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'Flag' (1#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:44]
-INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'zero_flag' of component 'Flag' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:160]
-INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'shad_carry_flag' of component 'Flag' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:168]
-INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'shad_zero_flag' of component 'Flag' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:176]
-INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'interrupt_flag' of component 'Flag' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:184]
-INFO: [Synth 8-3491] module 'ALU' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:35' bound to instance 'alu_port' of component 'ALU' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:192]
-INFO: [Synth 8-638] synthesizing module 'ALU' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'ALU' (2#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:45]
-INFO: [Synth 8-3491] module 'REG_FILE' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd:35' bound to instance 'reg_file_port' of component 'REG_FILE' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:201]
-INFO: [Synth 8-638] synthesizing module 'REG_FILE' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (3#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd:45]
-INFO: [Synth 8-3491] module 'prog_rom' declared at 'C:/Users/gholstei/Desktop/VGA/BufferlessVGAFiles/prog_rom.vhd:21' bound to instance 'prog_rom_port' of component 'prog_rom' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:210]
-INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/gholstei/Desktop/VGA/BufferlessVGAFiles/prog_rom.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'RAT_wrapper' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:42]
+INFO: [Synth 8-3491] module 'RAT_CPU' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:12' bound to instance 'CPU' of component 'RAT_CPU' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'RAT_CPU' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:24]
+INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'carry_flag' of component 'Flag' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'Flag' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'Flag' (1#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:44]
+INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'zero_flag' of component 'Flag' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:160]
+INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'shad_carry_flag' of component 'Flag' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:168]
+INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'shad_zero_flag' of component 'Flag' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:176]
+INFO: [Synth 8-3491] module 'Flag' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Flag.vhd:35' bound to instance 'interrupt_flag' of component 'Flag' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:184]
+INFO: [Synth 8-3491] module 'ALU' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:35' bound to instance 'alu_port' of component 'ALU' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'ALU' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (2#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:45]
+INFO: [Synth 8-3491] module 'REG_FILE' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd:35' bound to instance 'reg_file_port' of component 'REG_FILE' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'REG_FILE' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (3#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/REG_FILE.vhd:45]
+INFO: [Synth 8-3491] module 'prog_rom' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/imports/Downloads/prog_rom.vhd:21' bound to instance 'prog_rom_port' of component 'prog_rom' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'prog_rom' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/imports/Downloads/prog_rom.vhd:29]
 	Parameter INIT bound to: 20'b00000000000000000000 
-	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001000100010001100111100111111011111111111110001001000100001001000100000000010001000000010001100100000111110110011001100111111110011001111111100110011111100 
+	Parameter INITP_00 bound to: 256'b0000000000000001111111111000110000000011000000001100000000110000000011111100110011010010001000100011001111001111110111111111111100010010001000010010001000011000110110001101100011011000110011110100111100110011111011001100111111110011001111111100110011111100 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -89,14 +90,14 @@ INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/gholstei/Desktop/VG
 	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_00 bound to: 256'b0110000100000001011000001000000110000001100010010111111100000011100000011011100101100011000000100110001000000011011000010001111001100000101010001000000110001001011111110000000010000001101110010110001100000001011000010011001001100000110001100000000000000000 
-	Parameter INIT_01 bound to: 256'b0000000100000000100000010001101001100110000000011000000111111001100000011011100101100011000000100110011000000001110001010000010101100101001110111000000101011001011111110000001110000001100010010111111100000110100000011011100101100011000000110110001000011100 
-	Parameter INIT_02 bound to: 256'b0100001011111010100111110000000101000001111110101001111100000001010000001111101010000001010010000000101001010000100000001101100001000110000000011000000011011000100000010000000110000001001110100100000100101000100000001101100011000001000000011000000100111010 
-	Parameter INIT_03 bound to: 256'b0111110101111111100000000000001001000100101001000110010000000000010001001010010001000010101000110100000110100010010000001010000101000100000110011000000000000010010000101111101110011111000000010100000111111011100111110000000101000000111110111000000000000010 
-	Parameter INIT_04 bound to: 256'b0000000000000000100000000000001010000010000000001101110100000001100000100001100011011100000000011000001000110000110110110000000110000010010100100001101100000000100000100110001000011100000000000111101100001111100000100111001000011101000000000111110000001111 
-	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_00 bound to: 256'b0110000100011110011000000010100010000001110010010111111100000011100000011111100101100011000000100110001000000011011000010000000101100000000000011000000111001001011111110000000010000001111110010110001100000001011000010011001001100000000001100000000000000000 
+	Parameter INIT_01 bound to: 256'b1010000000000000100000011001100101100011000000110111111100000110100000011100100101111111000010011000000111111001011000110000010001100001000010100010000010000000011000000001010010000001110010010111111100000110100000011111100101100011000000110110001000011100 
+	Parameter INIT_02 bound to: 256'b0000000100111011100000000000001010000000000000011000000101110010000000001100111110000000000000101100000100000001100000010101001000000001000000001000000000000010110000000000000110000001001100100000000010000000100000010000000001010100010000000011010000100000 
+	Parameter INIT_03 bound to: 256'b0100010000011001100000000000001001000010111110111001111100000001010000011111101110011111000000010100000011111011100000000000001001000010111110101001111100000001010000011111101010011111000000010100000011111010100000000000001010000001000000011000000110010010 
+	Parameter INIT_04 bound to: 256'b1000001010010010000110110000000010000010101000100001110000000000011110110000111110000010101100100001110100000000011111000000111101111101011111111000000000000010010001001010010001100100000000000100010010100100010000101010001101000001101000100100000010100001 
+	Parameter INIT_05 bound to: 256'b1000000100111001100000110001001100000110000111010100011010000000001001100011000010000011101000000110111100000000100000101101101100001111000000011000000000000010100000100100000011011101000000011000001001011000110111000000000110000010011100001101101100000001 
+	Parameter INIT_06 bound to: 256'b1000000111111001100000010101100110000011100010110000011000100011100000111010000010000001111110011000000100011001100000110110001100000110000111001000001110100000100000011111100110000001011110011000001100111011000001100001101110000011101000001000000111111001 
+	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000001101000110001100100110011000000000010001100011001001100110000000011000111100000001100000111010001100000110111100001000001110100000 
 	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -152,69 +153,70 @@ INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/gholstei/Desktop/VG
 	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3F bound to: 256'b1000001010111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter SRVAL bound to: 20'b00000000000000000000 
 	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
-INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [C:/Users/gholstei/Desktop/VGA/BufferlessVGAFiles/prog_rom.vhd:194]
-INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [C:/Users/gholstei/Desktop/VGA/BufferlessVGAFiles/prog_rom.vhd:29]
-INFO: [Synth 8-3491] module 'PC' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd:34' bound to instance 'pc_port' of component 'PC' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:215]
-INFO: [Synth 8-638] synthesizing module 'PC' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'PC' (5#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd:43]
-INFO: [Synth 8-3491] module 'SP' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:26' bound to instance 'sp_port' of component 'SP' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:223]
-INFO: [Synth 8-638] synthesizing module 'SP' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:36]
-INFO: [Synth 8-256] done synthesizing module 'SP' (6#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:36]
-INFO: [Synth 8-3491] module 'SCR' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd:26' bound to instance 'scr_port' of component 'SCR' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:232]
-INFO: [Synth 8-638] synthesizing module 'SCR' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd:34]
-INFO: [Synth 8-256] done synthesizing module 'SCR' (7#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd:34]
-INFO: [Synth 8-3491] module 'CONTROL_UNIT' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:13' bound to instance 'control_unit_port' of component 'CONTROL_UNIT' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:239]
-INFO: [Synth 8-638] synthesizing module 'CONTROL_UNIT' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:55]
-INFO: [Synth 8-226] default block is never used [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:105]
-WARNING: [Synth 8-614] signal 'INTER' is read in the process but is not in the sensitivity list [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:78]
-INFO: [Synth 8-256] done synthesizing module 'CONTROL_UNIT' (8#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:55]
-INFO: [Synth 8-256] done synthesizing module 'RAT_CPU' (9#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:24]
-INFO: [Synth 8-3491] module 'clk_div2' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd:19' bound to instance 'clk50M' of component 'clk_div2' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:151]
-INFO: [Synth 8-638] synthesizing module 'clk_div2' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd:24]
-INFO: [Synth 8-256] done synthesizing module 'clk_div2' (10#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd:24]
-INFO: [Synth 8-3491] module 'sseg_dec' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:30' bound to instance 'sevenseg' of component 'sseg_dec' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:156]
-INFO: [Synth 8-638] synthesizing module 'sseg_dec' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:42]
-INFO: [Synth 8-3491] module 'bin2bcdconv' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:158' bound to instance 'my_conv' of component 'bin2bcdconv' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:66]
-INFO: [Synth 8-638] synthesizing module 'bin2bcdconv' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:168]
-INFO: [Synth 8-256] done synthesizing module 'bin2bcdconv' (11#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:168]
-INFO: [Synth 8-3491] module 'clk_div' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:258' bound to instance 'my_clk' of component 'clk_div' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:72]
-INFO: [Synth 8-638] synthesizing module 'clk_div' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:263]
-INFO: [Synth 8-256] done synthesizing module 'clk_div' (12#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:263]
-INFO: [Synth 8-226] default block is never used [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:124]
-INFO: [Synth 8-226] default block is never used [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:132]
-INFO: [Synth 8-256] done synthesizing module 'sseg_dec' (13#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:42]
-INFO: [Synth 8-3491] module 'PS2_REGISTER' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd:34' bound to instance 'keyboard' of component 'PS2_REGISTER' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:164]
-INFO: [Synth 8-638] synthesizing module 'PS2_REGISTER' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'PS2_REGISTER' (14#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd:46]
-INFO: [Synth 8-3491] module 'VGA_Controller' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:29' bound to instance 'VGA' of component 'VGA_Controller' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:177]
-INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:40]
-INFO: [Synth 8-3491] module 'VGA_Sync' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd:29' bound to instance 'vga_sync_inst0' of component 'VGA_Sync' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:80]
-INFO: [Synth 8-638] synthesizing module 'VGA_Sync' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd:38]
-INFO: [Synth 8-256] done synthesizing module 'VGA_Sync' (15#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd:38]
-INFO: [Synth 8-3491] module 'Clock_Div' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd:27' bound to instance 'clock_div_inst0' of component 'Clock_Div' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:91]
-INFO: [Synth 8-638] synthesizing module 'Clock_Div' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd:32]
-INFO: [Synth 8-256] done synthesizing module 'Clock_Div' (16#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd:32]
-INFO: [Synth 8-3491] module 'Pixel_Generator' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:26' bound to instance 'pixel_gen_inst0' of component 'Pixel_Generator' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:98]
-INFO: [Synth 8-638] synthesizing module 'Pixel_Generator' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:38]
-INFO: [Synth 8-3491] module 'Sprite_MultiColor_Object' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:28' bound to instance 'face' of component 'Sprite_MultiColor_Object' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:93]
-INFO: [Synth 8-638] synthesizing module 'Sprite_MultiColor_Object' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'Sprite_MultiColor_Object' (17#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:41]
-INFO: [Synth 8-3491] module 'Rectangle_Object' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:27' bound to instance 'square' of component 'Rectangle_Object' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:108]
-INFO: [Synth 8-638] synthesizing module 'Rectangle_Object' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'Rectangle_Object' (18#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:41]
-INFO: [Synth 8-3491] module 'Sprite_Object' declared at 'U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:28' bound to instance 'guy' of component 'Sprite_Object' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:124]
-INFO: [Synth 8-638] synthesizing module 'Sprite_Object' [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'Sprite_Object' (19#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'Pixel_Generator' (20#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:38]
-INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (21#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:40]
-WARNING: [Synth 8-614] signal 'ps2KeyCode' is read in the process but is not in the sensitivity list [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:192]
-WARNING: [Synth 8-614] signal 'ps2Status' is read in the process but is not in the sensitivity list [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:192]
-INFO: [Synth 8-256] done synthesizing module 'RAT_wrapper' (22#1) [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:42]
+INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/imports/Downloads/prog_rom.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/imports/Downloads/prog_rom.vhd:29]
+INFO: [Synth 8-3491] module 'PC' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd:34' bound to instance 'pc_port' of component 'PC' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'PC' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'PC' (5#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PC.vhd:43]
+INFO: [Synth 8-3491] module 'SP' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:26' bound to instance 'sp_port' of component 'SP' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:223]
+INFO: [Synth 8-638] synthesizing module 'SP' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'SP' (6#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:36]
+INFO: [Synth 8-3491] module 'SCR' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd:26' bound to instance 'scr_port' of component 'SCR' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:232]
+INFO: [Synth 8-638] synthesizing module 'SCR' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'SCR' (7#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SCR.vhd:34]
+INFO: [Synth 8-3491] module 'CONTROL_UNIT' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:13' bound to instance 'control_unit_port' of component 'CONTROL_UNIT' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'CONTROL_UNIT' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:55]
+INFO: [Synth 8-226] default block is never used [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:105]
+WARNING: [Synth 8-614] signal 'INTER' is read in the process but is not in the sensitivity list [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'CONTROL_UNIT' (8#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ControlUnit.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'RAT_CPU' (9#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_CPU.vhd:24]
+INFO: [Synth 8-3491] module 'clk_div2' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd:19' bound to instance 'clk50M' of component 'clk_div2' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'clk_div2' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'clk_div2' (10#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/clock_div2.vhd:24]
+INFO: [Synth 8-3491] module 'sseg_dec' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:30' bound to instance 'sevenseg' of component 'sseg_dec' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'sseg_dec' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:42]
+INFO: [Synth 8-3491] module 'bin2bcdconv' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:158' bound to instance 'my_conv' of component 'bin2bcdconv' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'bin2bcdconv' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:168]
+INFO: [Synth 8-256] done synthesizing module 'bin2bcdconv' (11#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:168]
+INFO: [Synth 8-3491] module 'clk_div' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:258' bound to instance 'my_clk' of component 'clk_div' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:263]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (12#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:263]
+INFO: [Synth 8-226] default block is never used [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:124]
+INFO: [Synth 8-226] default block is never used [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'sseg_dec' (13#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/sseg_dec.vhd:42]
+INFO: [Synth 8-3491] module 'PS2_REGISTER' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd:34' bound to instance 'keyboard' of component 'PS2_REGISTER' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'PS2_REGISTER' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'PS2_REGISTER' (14#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/PS2_REGISTER.vhd:46]
+INFO: [Synth 8-3491] module 'VGA_Controller' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:29' bound to instance 'VGA' of component 'VGA_Controller' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:40]
+INFO: [Synth 8-3491] module 'VGA_Sync' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd:29' bound to instance 'vga_sync_inst0' of component 'VGA_Sync' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'VGA_Sync' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Sync' (15#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Sync.vhd:38]
+INFO: [Synth 8-3491] module 'Clock_Div' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd:27' bound to instance 'clock_div_inst0' of component 'Clock_Div' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'Clock_Div' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Div' (16#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Clock_Div.vhd:32]
+INFO: [Synth 8-3491] module 'Pixel_Generator' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:26' bound to instance 'pixel_gen_inst0' of component 'Pixel_Generator' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Pixel_Generator' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:38]
+INFO: [Synth 8-3491] module 'Sprite_MultiColor_Object' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:28' bound to instance 'face' of component 'Sprite_MultiColor_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'Sprite_MultiColor_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Sprite_MultiColor_Object' (17#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:41]
+INFO: [Synth 8-3491] module 'Rectangle_Object' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:27' bound to instance 'square' of component 'Rectangle_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'Rectangle_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Rectangle_Object' (18#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:41]
+INFO: [Synth 8-3491] module 'Sprite_Object' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:28' bound to instance 'guy' of component 'Sprite_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'Sprite_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Sprite_Object' (19#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:42]
+INFO: [Synth 8-3491] module 'ball_Object' declared at 'U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:28' bound to instance 'Ball' of component 'Ball_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'ball_Object' [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'ball_Object' (20#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_Generator' (21#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Pixel_Generator.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (22#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/VGA_Controller.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'RAT_wrapper' (23#1) [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:42]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 269.559 ; gain = 108.879
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 269.133 ; gain = 108.266
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -223,9 +225,9 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin keyboard:CLK to constant 0 [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:164]
+WARNING: [Synth 8-3295] tying undriven pin keyboard:CLK to constant 0 [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:164]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 269.559 ; gain = 108.879
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 269.133 ; gain = 108.266
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'CPU/prog_rom_port/ram_1024_x_18' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
@@ -241,33 +243,33 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [U:/CPE233/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc]
-Finished Parsing XDC File [U:/CPE233/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc]
+Parsing XDC File [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc]
+Finished Parsing XDC File [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   RAMB16_S18 => RAMB18E1: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 561.512 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 561.375 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:54]
-INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:47]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ALU.vhd:54]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/SP.vhd:47]
 ROM "I_SET" won't be mapped to RAM because it is too sparse.
 ROM "I_CLR" won't be mapped to RAM because it is too sparse.
 ROM "PC_MUX_SEL" won't be mapped to RAM because it is too sparse.
@@ -291,27 +293,33 @@ ROM "tmp_clk" won't be mapped to RAM because address size (32) is larger than ma
 ROM "div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
 ROM "temp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
 ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:95]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:94]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:95]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:94]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:95]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:94]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:65]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:64]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:65]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:64]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:65]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:64]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:82]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:81]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:82]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:81]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:82]
-INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:81]
-WARNING: [Synth 8-3936] Found unconnected internal register 'r_PS2CONTROL_reg' and it is trimmed from '8' to '1' bits. [U:/CPE233/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:171]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:95]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:94]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:95]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:94]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:95]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_MultiColor_Object.vhd:94]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:65]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:64]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:65]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:64]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:65]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Rectangle_Object.vhd:64]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:82]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:81]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:82]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:81]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:82]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/Sprite_Object.vhd:81]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:92]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:91]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:92]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:91]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:92]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/ball_object.vhd:91]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_PS2CONTROL_reg' and it is trimmed from '8' to '1' bits. [U:/CPE233/Breakout/FinalProject/FinalProject.srcs/sources_1/new/RAT_WRAPPER.vhd:171]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -329,14 +337,14 @@ Detailed RTL Component Info :
 	   2 Input      9 Bit       Adders := 1     
 	   3 Input      9 Bit       Adders := 2     
 	   2 Input      8 Bit       Adders := 6     
-	   3 Input      8 Bit       Adders := 6     
-	   2 Input      7 Bit       Adders := 6     
-	   3 Input      7 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 8     
+	   2 Input      7 Bit       Adders := 8     
+	   3 Input      7 Bit       Adders := 3     
 	   2 Input      6 Bit       Adders := 1     
 	   2 Input      4 Bit       Adders := 1     
 	   6 Input      4 Bit       Adders := 1     
 	   2 Input      3 Bit       Adders := 1     
-	   3 Input      3 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 3     
 	   2 Input      2 Bit       Adders := 3     
 +---XORs : 
 	   2 Input      9 Bit         XORs := 1     
@@ -345,9 +353,9 @@ Detailed RTL Component Info :
 	               32 Bit    Registers := 3     
 	               10 Bit    Registers := 3     
 	                8 Bit    Registers := 8     
-	                7 Bit    Registers := 7     
+	                7 Bit    Registers := 9     
 	                2 Bit    Registers := 2     
-	                1 Bit    Registers := 13    
+	                1 Bit    Registers := 14    
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 3     
 	   2 Input     10 Bit        Muxes := 8     
@@ -356,14 +364,15 @@ Detailed RTL Component Info :
 	   2 Input      9 Bit        Muxes := 6     
 	   3 Input      8 Bit        Muxes := 1     
 	   4 Input      8 Bit        Muxes := 2     
-	   2 Input      8 Bit        Muxes := 14    
+	   2 Input      8 Bit        Muxes := 12    
 	  12 Input      8 Bit        Muxes := 1     
 	   7 Input      8 Bit        Muxes := 4     
-	   5 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 4     
 	   2 Input      7 Bit        Muxes := 1     
 	   7 Input      7 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
 	  48 Input      4 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 3     
 	  11 Input      4 Bit        Muxes := 2     
@@ -563,10 +572,25 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input      4 Bit        Muxes := 1     
 	   5 Input      4 Bit        Muxes := 1     
+Module ball_Object 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
 Module Pixel_Generator 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
 Module VGA_Controller 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -583,70 +607,36 @@ BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 561.512 ; gain = 400.832
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-ROM "CPU/control_unit_port/I_SET" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/I_CLR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/PC_MUX_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/RF_WR_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/ALU_OPY_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/ALU_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/FLG_C_SET" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/FLG_C_CLR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/FLG_LD_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SP_LD" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SP_INCR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SP_DECR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SCR_WE" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SCR_ADDR_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SCR_DATA_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/IO_STROBE" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/I_SET" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/I_CLR" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/PC_MUX_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/RF_WR_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/ALU_OPY_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/ALU_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/FLG_C_SET" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/FLG_C_CLR" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/FLG_LD_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/SP_LD" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/SP_INCR" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/SP_DECR" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/SCR_WE" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/SCR_ADDR_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/SCR_DATA_SEL" won't be mapped to RAM because it is too sparse.
+ROM "control_unit_port/IO_STROBE" won't be mapped to RAM because it is too sparse.
+ROM "my_clk/div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "my_clk/tmp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "clock_div_inst0/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "clock_div_inst0/temp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
 ROM "clk50M/div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
 ROM "clk50M/tmp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "sevenseg/my_clk/div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "sevenseg/my_clk/tmp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "VGA/clock_div_inst0/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "VGA/clock_div_inst0/temp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "CPU/control_unit_port/I_SET" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/I_CLR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/PC_MUX_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/RF_WR_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/ALU_OPY_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/ALU_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/FLG_C_SET" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/FLG_C_CLR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/FLG_LD_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SP_LD" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SP_INCR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SP_DECR" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SCR_WE" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SCR_ADDR_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/SCR_DATA_SEL" won't be mapped to RAM because it is too sparse.
-ROM "CPU/control_unit_port/IO_STROBE" won't be mapped to RAM because it is too sparse.
-ROM "clk50M/div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "clk50M/tmp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "sevenseg/my_clk/div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "sevenseg/my_clk/tmp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "VGA/clock_div_inst0/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "VGA/clock_div_inst0/temp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
-ROM "CPU/control_unit_port/NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/my_conv/" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/my_conv/" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/my_conv/" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/my_conv/" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/my_conv/" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/my_conv/" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
-ROM "sevenseg/" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
-ROM "VGA/pixel_gen_inst0/face/SPRITE_COLOR_ROM[0][1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
-ROM "VGA/pixel_gen_inst0/face/SPRITE_COLOR_ROM[0][2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
-ROM "VGA/pixel_gen_inst0/face/SPRITE_COLOR_ROM[0][3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
-WARNING: [Synth 8-3917] design RAT_wrapper has port SEGMENTS[0] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 561.375 ; gain = 400.508
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -662,7 +652,7 @@ Distributed RAM:
 |Module Name | RTL Object                    | Inference Criteria | Size (depth X width) | Primitives       | Hierarchical Name  | 
 +------------+-------------------------------+--------------------+----------------------+------------------+--------------------+
 |RAT_wrapper | CPU/scr_port/gen_ram_reg      | Implied            | 256 X 10             | RAM256X1S x 10   | RAT_wrapper/ram__4 | 
-|RAT_wrapper | CPU/reg_file_port/gen_ram_reg | Implied            | 32 X 8               | RAM32X1D x 8     | RAT_wrapper/ram__5 | 
+|RAT_wrapper | CPU/reg_file_port/gen_ram_reg | Implied            | 32 X 8               | RAM32X1D x 8     | RAT_wrapper/ram__6 | 
 +------------+-------------------------------+--------------------+----------------------+------------------+--------------------+
 
 Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
@@ -704,19 +694,19 @@ WARNING: [Synth 8-3332] Sequential element (\VGA/clock_div_inst0/counter_reg[1] 
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 561.375 ; gain = 400.508
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -724,10 +714,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 561.512 ; gain = 400.832
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 561.375 ; gain = 400.508
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -739,7 +729,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 573.934 ; gain = 413.254
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 579.922 ; gain = 419.055
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -763,7 +753,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 573.934 ; gain = 413.254
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 579.922 ; gain = 419.055
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -776,7 +766,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 573.934 ; gain = 413.254
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 579.922 ; gain = 419.055
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -788,7 +778,7 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 573.934 ; gain = 413.254
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 579.922 ; gain = 419.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RAM, DSP and Shift Register Reporting
@@ -819,13 +809,13 @@ Report Cell Usage:
 |      |Cell       |Count |
 +------+-----------+------+
 |1     |BUFG       |     3|
-|2     |CARRY4     |    59|
+|2     |CARRY4     |    66|
 |3     |INV        |     3|
 |4     |LUT1       |    81|
-|5     |LUT2       |    94|
-|6     |LUT3       |    58|
-|7     |LUT4       |   119|
-|8     |LUT5       |   104|
+|5     |LUT2       |   102|
+|6     |LUT3       |    57|
+|7     |LUT4       |   148|
+|8     |LUT5       |   116|
 |9     |LUT6       |   187|
 |10    |MUXF7      |    18|
 |11    |MUXF8      |     8|
@@ -835,7 +825,7 @@ Report Cell Usage:
 |15    |SRL16E     |     1|
 |16    |FDCE       |    43|
 |17    |FDPE       |     1|
-|18    |FDRE       |   204|
+|18    |FDRE       |   219|
 |19    |IBUF       |    15|
 |20    |IOBUF      |     1|
 |21    |OBUF       |    30|
@@ -845,7 +835,7 @@ Report Instance Areas:
 +------+----------------------+-------------------------+------+
 |      |Instance              |Module                   |Cells |
 +------+----------------------+-------------------------+------+
-|1     |top                   |                         |  1048|
+|1     |top                   |                         |  1118|
 |2     |  CPU                 |RAT_CPU                  |   334|
 |3     |    alu_port          |ALU                      |    35|
 |4     |    carry_flag        |Flag                     |     3|
@@ -859,27 +849,28 @@ Report Instance Areas:
 |12    |    shad_zero_flag    |Flag_2                   |     1|
 |13    |    sp_port           |SP                       |    31|
 |14    |    zero_flag         |Flag_3                   |     1|
-|15    |  VGA                 |VGA_Controller           |   271|
+|15    |  VGA                 |VGA_Controller           |   344|
 |16    |    clock_div_inst0   |Clock_Div                |     4|
-|17    |    pixel_gen_inst0   |Pixel_Generator          |   169|
-|18    |      face            |Sprite_MultiColor_Object |    60|
-|19    |      guy             |Sprite_Object            |    57|
-|20    |      square          |Rectangle_Object         |    52|
-|21    |    vga_sync_inst0    |VGA_Sync                 |    98|
-|22    |  clk50M              |clk_div2                 |    82|
-|23    |  keyboard            |PS2_REGISTER             |    29|
-|24    |  sevenseg            |sseg_dec                 |   230|
-|25    |    my_clk            |clk_div                  |    81|
-|26    |    my_conv           |bin2bcdconv              |   138|
+|17    |    pixel_gen_inst0   |Pixel_Generator          |   164|
+|18    |      Ball            |ball_Object              |    37|
+|19    |      face            |Sprite_MultiColor_Object |    38|
+|20    |      guy             |Sprite_Object            |    45|
+|21    |      square          |Rectangle_Object         |    44|
+|22    |    vga_sync_inst0    |VGA_Sync                 |   176|
+|23    |  clk50M              |clk_div2                 |    82|
+|24    |  keyboard            |PS2_REGISTER             |    29|
+|25    |  sevenseg            |sseg_dec                 |   227|
+|26    |    my_clk            |clk_div                  |    81|
+|27    |    my_conv           |bin2bcdconv              |   136|
 +------+----------------------+-------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 573.934 ; gain = 413.254
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 579.922 ; gain = 419.055
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:29 . Memory (MB): peak = 573.934 ; gain = 98.242
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 573.934 ; gain = 413.254
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 579.922 ; gain = 104.211
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 579.922 ; gain = 419.055
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 94 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 101 Unisim elements for replacement
 WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'CPU/prog_rom_port/ram_1024_x_18' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -895,10 +886,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAMB16_S18 => RAMB18E1: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-108 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+117 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 573.934 ; gain = 393.320
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 579.922 ; gain = 399.574
 # write_checkpoint -noxdef RAT_wrapper.dcp
 # catch { report_utilization -file RAT_wrapper_utilization_synth.rpt -pb RAT_wrapper_utilization_synth.pb }
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 573.934 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue May 24 10:03:59 2016...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 579.922 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue May 24 11:02:08 2016...

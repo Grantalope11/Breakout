@@ -52,12 +52,12 @@ set rc [catch {
   set_param xicom.use_bs_reader 1
   debug::add_scope template.lib 1
   set_property design_mode GateLvl [current_fileset]
-  set_property webtalk.parent_dir U:/CPE233/FinalProject/FinalProject.cache/wt [current_project]
-  set_property parent.project_path U:/CPE233/FinalProject/FinalProject.xpr [current_project]
-  set_property ip_repo_paths u:/CPE233/FinalProject/FinalProject.cache/ip [current_project]
-  set_property ip_output_repo u:/CPE233/FinalProject/FinalProject.cache/ip [current_project]
-  add_files -quiet U:/CPE233/FinalProject/FinalProject.runs/synth_1/RAT_wrapper.dcp
-  read_xdc U:/CPE233/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc
+  set_property webtalk.parent_dir U:/CPE233/Breakout/FinalProject/FinalProject.cache/wt [current_project]
+  set_property parent.project_path U:/CPE233/Breakout/FinalProject/FinalProject.xpr [current_project]
+  set_property ip_repo_paths u:/CPE233/Breakout/FinalProject/FinalProject.cache/ip [current_project]
+  set_property ip_output_repo u:/CPE233/Breakout/FinalProject/FinalProject.cache/ip [current_project]
+  add_files -quiet U:/CPE233/Breakout/FinalProject/FinalProject.runs/synth_1/RAT_wrapper.dcp
+  read_xdc U:/CPE233/Breakout/FinalProject/FinalProject.srcs/constrs_1/new/Basys3_Master.xdc
   link_design -top RAT_wrapper -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]
@@ -124,8 +124,8 @@ start_step write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   write_bitstream -force RAT_wrapper.bit 
-  if { [file exists U:/CPE233/FinalProject/FinalProject.runs/synth_1/RAT_wrapper.hwdef] } {
-    catch { write_sysdef -hwdef U:/CPE233/FinalProject/FinalProject.runs/synth_1/RAT_wrapper.hwdef -bitfile RAT_wrapper.bit -meminfo RAT_wrapper.mmi -file RAT_wrapper.sysdef }
+  if { [file exists U:/CPE233/Breakout/FinalProject/FinalProject.runs/synth_1/RAT_wrapper.hwdef] } {
+    catch { write_sysdef -hwdef U:/CPE233/Breakout/FinalProject/FinalProject.runs/synth_1/RAT_wrapper.hwdef -bitfile RAT_wrapper.bit -meminfo RAT_wrapper.mmi -file RAT_wrapper.sysdef }
   }
   close_msg_db -file write_bitstream.pb
 } RESULT]
