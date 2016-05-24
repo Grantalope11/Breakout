@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="2" Path="U:/CPE233/Breakout/FinalProject/FinalProject.xpr">
+<Project Version="7" Minor="2" Path="U:/CPE233/FinalProject/FinalProject.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="05485058351846f5adf9afe10243eba8"/>
@@ -34,26 +34,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/ball_object.vhd">
+      <File Path="$PSRCDIR/sources_1/new/VGA_Sync.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/gholstei/Desktop/NewSHIIIIT/sources_1/new/ball_object.vhd"/>
-          <Attr Name="ImportTime" Val="1464110943"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/BufferlessVGAFiles/VGA_Sync.vhd">
+      <File Path="$PSRCDIR/sources_1/new/Pixel_Generator.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/gholstei/Desktop/NewSHIIIIT/sources_1/imports/BufferlessVGAFiles/VGA_Sync.vhd"/>
-          <Attr Name="ImportTime" Val="1464110943"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/BufferlessVGAFiles/Pixel_Generator.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/gholstei/Desktop/NewSHIIIIT/sources_1/imports/BufferlessVGAFiles/Pixel_Generator.vhd"/>
-          <Attr Name="ImportTime" Val="1464110943"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -112,27 +100,19 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/BufferlessVGAFiles/VGA_Controller.vhd">
+      <File Path="$PSRCDIR/sources_1/new/clock_div2.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/gholstei/Desktop/NewSHIIIIT/sources_1/imports/BufferlessVGAFiles/VGA_Controller.vhd"/>
-          <Attr Name="ImportTime" Val="1464110943"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/VGA_Controller.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/sseg_dec.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/PS2_REGISTER.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/clock_div2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -144,27 +124,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/RAT Wrapper.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/gholstei/Desktop/NewSHIIIIT/sources_1/new/RAT Wrapper.vhd"/>
-          <Attr Name="ImportTime" Val="1464110943"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/VGA_Sync.vhd">
+      <File Path="$PSRCDIR/sources_1/new/PS2_REGISTER.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/Pixel_Generator.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/VGA_Controller.vhd">
+      <File Path="$PSRCDIR/sources_1/new/RAT_WRAPPER.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -190,7 +156,6 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
-      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="RAT_wrapper"/>
@@ -218,14 +183,18 @@
   <Runs Version="1" Minor="9">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+          <Desc>Vivado Implementation Defaults</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
