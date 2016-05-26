@@ -1,0 +1,103 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Thu May 26 08:24:17 2016
+| Host         : Calvins-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RAT_wrapper_control_sets_placed.rpt
+| Design       : RAT_wrapper
+| Device       : xc7a35ti
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    50 |
+| Unused register locations in slices containing registers |    90 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              15 |           12 |
+| No           | No                    | Yes                    |              57 |           22 |
+| No           | Yes                   | No                     |              72 |           18 |
+| Yes          | No                    | No                     |             474 |          197 |
+| Yes          | No                    | Yes                    |              18 |           11 |
+| Yes          | Yes                   | No                     |              10 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------+------------------------------------------------------------+---------------------------------+------------------+----------------+
+|     Clock Signal     |                        Enable Signal                       |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------------+------------------------------------------------------------+---------------------------------+------------------+----------------+
+|  s_vga_clk           |                                                            |                                 |                1 |              1 |
+| ~PS2C_IOBUF_inst/O   |                                                            |                                 |                2 |              2 |
+|  sevenseg/my_clk/CLK |                                                            |                                 |                1 |              2 |
+|  CLK50_BUFG          |                                                            | RESET_IBUF                      |                2 |              2 |
+|  CLK_IBUF_BUFG       |                                                            |                                 |                4 |              5 |
+|  CLK50_BUFG          |                                                            |                                 |                5 |              6 |
+|  CLK_IBUF_BUFG       | CPU/prog_rom_port/r_Y_POS_reg[0][0]                        |                                 |                3 |              7 |
+|  CLK_IBUF_BUFG       | CPU/prog_rom_port/r_SEGMENTS_reg[0][0]                     |                                 |                3 |              8 |
+|  CLK_IBUF_BUFG       | CPU/prog_rom_port/r_X_POS_EN_reg[0][0]                     |                                 |                3 |              8 |
+|  CLK50_BUFG          | CPU/prog_rom_port/DATA_reg[7]_0[0]                         | CPU/control_unit_port/AR[0]     |                6 |              8 |
+|  CLK_IBUF_BUFG       | CPU/prog_rom_port/r_LEDS_reg[0][0]                         |                                 |                5 |              8 |
+|  CLK_IBUF_BUFG       | CPU/prog_rom_port/r_OBJ_ADDR_reg[0]_1[0]                   |                                 |                3 |              8 |
+|  CLK50_BUFG          | CPU/prog_rom_port/E[0]                                     | CPU/control_unit_port/AR[0]     |                5 |             10 |
+|  s_vga_clk           |                                                            | VGA/vga_sync_inst0/clear        |                2 |             10 |
+|  s_vga_clk           | VGA/vga_sync_inst0/h_end                                   | VGA/vga_sync_inst0/v_count_reg0 |                3 |             10 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block4/eqOp                     |                                 |                8 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block5/obj_y_reg[6]_i_1__1_n_0  |                                 |                5 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block4/obj_y_reg[6]_i_1__13_n_0  |                                 |                8 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block6/obj_y_reg[6]_i_1__26_n_0 |                                 |                5 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block1/obj_y_reg[6]_i_1__9_n_0  |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/Ball/obj_x_reg[6]_i_1_n_0              |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block0/obj_y_reg[6]_i_1__11_n_0  |                                 |                8 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block1/obj_y_reg[6]_i_1__19_n_0  |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block2/obj_y_reg[6]_i_1__12_n_0  |                                 |                9 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block3/obj_y_reg[6]_i_1__20_n_0  |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block2/obj_y_reg[6]_i_1__7_n_0     |                                 |                4 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block5/obj_y_reg[6]_i_1__2_n_0   |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/green_block6/obj_y_reg[6]_i_1__3_n_0   |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block0/obj_y_reg[6]_i_1__21_n_0 |                                 |                7 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block5/obj_y_reg[6]_i_1__16_n_0 |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block6/obj_y_reg[6]_i_1__4_n_0  |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block1/obj_y_reg[6]_i_1__14_n_0 |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block2/obj_y_reg[6]_i_1__23_n_0 |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block3/obj_y_reg[6]_i_1__15_n_0 |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/purple_block4/obj_y_reg[6]_i_1__22_n_0 |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block0/obj_y_reg[6]_i_1__6_n_0     |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block1/obj_y_reg[6]_i_1__17_n_0    |                                 |                7 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block3/obj_y_reg[6]_i_1_n_0        |                                 |                7 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block4/obj_y_reg[6]_i_1__0_n_0     |                                 |                6 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block5/obj_y_reg[6]_i_1__18_n_0    |                                 |                7 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/red_block6/obj_y_reg[6]_i_1__8_n_0     |                                 |                4 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block0/obj_y_reg[6]_i_1__24_n_0 |                                 |                7 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block2/obj_y_reg[6]_i_1__25_n_0 |                                 |                5 |             15 |
+|  s_vga_clk           | VGA/pixel_gen_inst0/yellow_block3/obj_y_reg[6]_i_1__10_n_0 |                                 |                5 |             15 |
+|  CLK50_BUFG          | CPU/prog_rom_port/r_OBJ_ADDR_reg[0]_2                      |                                 |                2 |             16 |
+| ~PS2C_IOBUF_inst/O   |                                                            | r_PS2CONTROL_reg_n_0_[0]        |                6 |             22 |
+|  CLK_IBUF_BUFG       |                                                            | clk50M/tmp_clk                  |                8 |             31 |
+|  CLK_IBUF_BUFG       |                                                            | sevenseg/my_clk/tmp_clk         |                8 |             31 |
+|  CLK_IBUF_BUFG       |                                                            | RESET_IBUF                      |               14 |             33 |
+|  CLK50_BUFG          | CPU/prog_rom_port/WE                                       |                                 |               10 |             40 |
++----------------------+------------------------------------------------------------+---------------------------------+------------------+----------------+
+
+
